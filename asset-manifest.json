@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/plus_it_park/static/css/main.787f420b.css",
+    "main.js": "/plus_it_park/static/js/main.b2847202.js",
+    "static/media/rings.png": "/plus_it_park/static/media/rings.90e0f590806119f29248.png",
+    "static/media/protectRoute.png": "/plus_it_park/static/media/protectRoute.af0e2951df3c011c64ea.png",
+    "static/media/update.png": "/plus_it_park/static/media/update.c27d1c44ff3d712f6f40.png",
+    "static/media/home.png": "/plus_it_park/static/media/home.ee20dadbcd1790993901.png",
+    "static/media/shirt.png": "/plus_it_park/static/media/shirt.67a6a50ccb5458fa7633.png",
+    "static/media/tv.png": "/plus_it_park/static/media/tv.e9867b1d4d24eb3c8ac3.png",
+    "static/media/logout.png": "/plus_it_park/static/media/logout.8bea9917ad4324bf5898.png",
+    "static/media/jacket.png": "/plus_it_park/static/media/jacket.1b2966fbef54e36ad017.png",
+    "static/media/remove.png": "/plus_it_park/static/media/remove.152be2982a8a7df14dd9.png",
+    "static/media/bag.png": "/plus_it_park/static/media/bag.76c86533b7805b58acc7.png",
+    "index.html": "/plus_it_park/index.html",
+    "main.787f420b.css.map": "/plus_it_park/static/css/main.787f420b.css.map",
+    "main.b2847202.js.map": "/plus_it_park/static/js/main.b2847202.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.787f420b.css",
+    "static/js/main.b2847202.js"
+  ]
+}
