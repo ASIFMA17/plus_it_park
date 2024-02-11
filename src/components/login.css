@@ -1,0 +1,265 @@
+.login-restaurent {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.margin-login {
+    padding-right: 20%;
+    padding-left: 20%;
+}
+
+.login-list {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    background: #3E2723;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    width: 100%;
+    /* right: 50% !important;
+    left: 50% !important; */
+    /* margin-left: 50%;
+    margin-right: 50%; */
+    /* text-align: center; */
+}
+
+.login-head {
+    font-size: 21px;
+    font-weight: 700;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 0px;
+    /* color: #0d6efd; */
+}
+
+.login-mainHead {
+    font-size: 13px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 8px;
+    margin-bottom: 15px;
+}
+
+.loginList-Head {
+    font-size: 12px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.inpuBox-login {
+    width: 100%;
+    background: #fff;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.loginList-ButtonDiv {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.loginList-Button {
+    background: #fff;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    padding: 3px 20px;
+    color: #3E2723;
+    font-weight: 700;
+    font-size: 12px;
+
+    &:hover {
+        color: #fff;
+        background: #3E2723;
+    }
+}
+
+::placeholder {
+    font-size: 14px;
+}
+
+.error-login {
+    color: #fff;
+    font-size: 12px;
+    display: none;
+}
+
+input:invalid[focus='true']~span {
+    display: block;
+}
+
+input:invalid[focus='true'] {
+    border: solid 1px red;
+}
+
+@media (min-width:768px) {
+    .login-head {
+        font-size: 22px;
+        font-weight: 700;
+        /* color: #0d6efd; */
+    }
+}
+
+@media (min-width:900px) {
+    .login-head {
+        font-size: 24px;
+        font-weight: 700;
+        /* color: #0d6efd; */
+    }
+}
+
+@media (min-width:1100px) {
+    .login-head {
+        font-size: 26px;
+        font-weight: 700;
+        /* color: #0d6efd; */
+    }
+
+    .loginList-Head {
+        font-size: 13px;
+    }
+
+    .login-mainHead {
+        font-size: 14px;
+    }
+
+    .loginList-Button {
+        padding: 4px 25px;
+        font-size: 13px;
+    }
+}
+
+@media (min-width:1192px) {
+    .login-head {
+        font-size: 28px;
+        font-weight: 700;
+        /* color: #0d6efd; */
+    }
+}
+
+@media (min-width:1300px) {
+    .login-head {
+        font-size: 30px;
+        font-weight: 700;
+        /* color: #0d6efd; */
+    }
+}
+
+@media (min-width:1400px) {
+    .login-head {
+        font-size: 32px;
+        font-weight: 700;
+        /* color: #0d6efd; */
+    }
+}
+
+@media (max-width:768px) {
+
+    .login-list {
+        margin-top: 25px;
+    }
+
+    .loginList-Button {
+        width: 100%;
+    }
+    .margin-login {
+        padding-right: 19%;
+        padding-left: 19%;
+    }
+}
+
+@media (max-width:600px) {
+    .margin-login {
+        padding-right: 18%;
+        padding-left: 18%;
+    }
+}
+
+@media (max-width:576px) {
+
+    .login-mainHead {
+        margin-top: 6px;
+        margin-bottom: 13px;
+        font-size: 12px;
+    }
+
+    .login-List {
+        margin-top: 20px;
+    }
+
+    .login-head {
+        font-size: 22px;
+        font-weight: 700;
+        /* color: #0d6efd; */
+    }
+
+    .login-list {
+        padding-top: 25px;
+        padding-bottom: 40px;
+    }
+
+    .margin-login {
+        padding-right: 17%;
+        padding-left: 17%;
+    }
+
+
+}
+
+@media (max-width:530px) {
+    .margin-login {
+        padding-right: 15%;
+        padding-left: 15%;
+    }
+}
+
+@media (max-width:400px) {
+
+    .login-list {
+        margin-top: 17px;
+    }
+
+    .login-head {
+        font-size: 20px;
+        font-weight: 700;
+        /* color: #0d6efd; */
+    }
+    .margin-login {
+        padding-right: 13%;
+        padding-left: 13%;
+    }
+}
+
+@media (max-width:380px) {
+
+    .margin-login {
+        padding-right: 11%;
+        padding-left: 11%;
+    }
+}
+
+@media (max-width:350px) {
+
+    .margin-login {
+        padding-right: 9%;
+        padding-left: 9%;
+    }
+}
+
+@media (max-width:330px) {
+
+    .margin-login {
+        padding-right: 8%;
+        padding-left: 8%;
+    }
+}

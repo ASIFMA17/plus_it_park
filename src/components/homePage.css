@@ -1,0 +1,158 @@
+.dashHome-margin {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.card-dashHome {
+    display: flex;
+    justify-content: center;
+}
+
+.card-bg {
+    background: #EFEBE9;
+    /* border: solid 1px #3E2723; */
+}
+
+.cardImg-div {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.img-dashHome {
+    width: 200px;
+    height: 200px;
+}
+
+.cardBtn-dashHome {
+    display: flex;
+    justify-content: center;
+}
+
+.Button-dashHome {
+    font-size: 13px;
+    font-weight: 600;
+    color: #fff;
+    background: #3E2723;
+    text-decoration: none;
+    padding: 4px 15px;
+    border-radius: 8px;
+}
+
+.cardTow-dashHome {
+    margin-bottom: 20px;
+}
+
+.cardfive-dashHome {
+    margin-bottom: 20px;
+}
+
+.cardfour-dashHome {
+    margin-bottom: 20px;
+}
+
+.product-Head-div-home{
+    margin-bottom: 25px;
+}
+
+.product-Head-home{
+    color: #000000;
+    font-size: 20px;
+    font-weight: bold; 
+}
+
+.rightArrow{
+    width: 24px;
+    height: 24px;
+    color: #3E2723;
+    transition: .3s ease-in-out;
+    &:hover{
+        transform: translateX(5px);
+    }
+}
+.productLink{
+    color: #000000;
+    font-size: 13px;
+    font-weight: bold;
+    text-decoration: none;
+    padding-left: 3px;
+}
+
+@media (min-width:768px) {
+    .cardTow-dashHome {
+        margin-bottom: 30px;
+    }
+
+    .Button-dashHome {
+        font-size: 14px;
+    }
+
+    .cardfive-dashHome {
+        margin-bottom: 0px;
+    }
+}
+
+@media (min-width:992px) {
+
+    /* .cardTow-dashHome{
+        margin-bottom: 0px;
+    }  */
+    .Button-dashHome {
+        font-size: 14px;
+    }
+
+    .cardfour-dashHome {
+        margin-bottom: 0px;
+    }
+}
+
+@media (min-width:1200px) {
+    .product-Head-home{
+        font-size: 22px; 
+    }
+    .productLink{
+        font-size: 14px;
+    }
+}
+
+
+@media (max-width:992px) {
+    .product-Head-div-home{
+        margin-bottom: 23px;
+    } 
+}
+
+@media(max-width: 768px){
+    .product-Head-div-home{
+        margin-bottom: 20px;
+    }
+    .rightArrow{
+        width: 22px;
+        height: 22px;
+    }
+}
+
+@media(max-width: 650px){
+    .product-Head-div-home{
+        margin-bottom: 18px;
+    } 
+}
+
+@media(max-width: 576px){
+    .product-Head-div-home{
+        margin-bottom: 16px;
+    }
+    .product-Head-home{
+        font-size: 18px; 
+    }
+    .rightArrow{
+        width: 20px;
+        height: 20px;
+    } 
+}
+
+@media(max-width: 500px){
+    .productLink{
+        font-size: 12px;
+    } 
+}

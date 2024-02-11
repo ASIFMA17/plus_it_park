@@ -1,0 +1,329 @@
+
+.home-margin{
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 70px;
+    padding-bottom: 40px;
+}
+.image-margin{
+    margin-top: 10px;
+}
+.card-home{
+    display: flex;
+    justify-content: center;
+}
+.card-margin{
+    margin-bottom: 50px;
+    width: 18rem ;
+}
+.cardBody{
+    background: #EFEBE9;
+    border-top: solid 1px #000000;
+    margin-top: 5px;
+}
+.card-head{
+    text-align: center;
+    color: #0b1f3f;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.card-text{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    color: #0b1f3f;
+    opacity: 1;
+    text-align: start;
+    font-size: 13px;
+}
+.card-button{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+}
+.card-img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+.card-ul{
+    padding: 0px;
+    list-style: none;
+}
+.product-Head-div{
+    margin-bottom: 25px;
+}
+.product-Head{
+    color: #000000;
+    font-size: 20px;
+    font-weight: bold; 
+}
+
+
+@media (min-width:1200px) {
+    .product-Head{
+        font-size: 22px; 
+    }
+    .card-text{
+        font-size: 14px;
+    }
+}
+
+@media(max-width:1600px){
+    .card-margin{
+        width: 24rem ;
+    }
+}
+
+@media(max-width:1500px){
+    .card-margin{
+        width: 22rem ;
+    }
+}
+
+@media(max-width:1400px){
+    .card-margin{
+        width: 21rem ;
+    }
+}
+
+@media(max-width:1300px){
+    .card-margin{
+        width: 20rem ;
+    }
+}
+
+@media(max-width:1200px){
+    .card-margin{
+        width: 19rem ;
+    }
+}
+
+@media(max-width: 1130px){
+    .home-margin{
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top: 70px;
+        padding-bottom: 40px;
+    }
+    
+    .card-margin{
+        width: 18rem ;
+    }
+    
+} 
+@media(max-width: 1050px){
+    .home-margin{
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top: 70px;
+        padding-bottom: 40px;
+    } 
+} 
+@media(max-width: 1020px){
+    .home-margin{
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-top: 70px;
+        padding-bottom: 40px;
+    } 
+}
+@media(max-width: 992px){
+    .home-margin{
+        margin-left: 150px;
+        margin-right: 150px;
+        margin-top: 70px;
+        padding-bottom: 40px;
+    } 
+}
+@media(max-width: 950px){
+    .home-margin{
+        margin-left: 130px;
+        margin-right: 130px;
+        margin-top: 70px;
+        padding-bottom: 40px;
+    } 
+}
+@media(max-width: 900px){
+    .home-margin{
+        margin-left: 110px;
+        margin-right: 110px;
+        margin-top: 70px;
+        padding-bottom: 40px;
+    }
+    .product-Head-div{
+        margin-bottom: 23px;
+    } 
+}
+@media(max-width: 850px){
+    .home-margin{
+        margin-left: 90px;
+        margin-right: 90px;
+        margin-top: 70px;
+        padding-bottom: 40px;
+    } 
+}
+@media(max-width: 800px){
+    .home-margin{
+        margin-left: 70px;
+        margin-right: 70px;
+        margin-top: 50px;
+        padding-bottom: 30px;
+    }
+    
+    .card-margin{
+        margin-bottom: 30px;
+        width: 18rem ;
+    } 
+    .product-Head-div{
+        margin-bottom: 20px;
+    }
+}
+@media(max-width: 750px){
+    .home-margin{
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top: 50px;
+        padding-bottom: 30px;
+    } 
+}
+@media(max-width: 710px){
+    .home-margin{
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-top: 50px;
+        padding-bottom: 30px;
+    }
+    .product-Head-div{
+        margin-bottom: 18px;
+    } 
+}
+@media(max-width: 665px){
+    .home-margin{
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 50px;
+        padding-bottom: 30px;
+    } 
+}
+@media(max-width: 620px){
+    .home-margin{
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 50px;
+        padding-bottom: 30px;
+    }
+    .card-margin{
+        margin-bottom: 50px;
+        width: 17rem ;
+    }
+    .product-Head-div{
+        margin-bottom: 23px;
+    }
+}
+@media(max-width: 576px){
+    .home-margin{
+        margin-left: 60px;
+        margin-right: 60px;
+        margin-top: 30px;
+        padding-bottom: 20px;
+    }
+    .card-margin{
+        margin-bottom: 20px;
+    }
+    /* .product-Head-div{
+        margin-bottom: 20px;
+    } */
+    .product-Head{
+        font-size: 18px; 
+    }
+    .product-Head-div{
+        margin-bottom: 16px;
+    }
+}
+@media(max-width: 550px){
+    .home-margin{
+        margin-left: 55px;
+        margin-right: 55px;
+        margin-top: 30px;
+        padding-bottom: 20px;
+    }
+}
+@media(max-width: 500px){
+    .home-margin{
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top: 30px;
+        padding-bottom: 20px;
+    }
+    .product-Head-div{
+        margin-bottom: 10px;
+    }
+
+}
+@media(max-width: 450px){
+    .home-margin{
+        margin-left: 45px;
+        margin-right: 45px;
+        margin-top: 30px;
+        padding-bottom: 20px;
+    }
+}
+@media(max-width: 420px){
+    .home-margin{
+        margin-left: 40px;
+        margin-right: 40px;
+        margin-top: 30px;
+        padding-bottom: 20px;
+    }
+}
+@media(max-width: 400px){
+    .home-margin{
+        margin-left: 35px;
+        margin-right: 35px;
+        margin-top: 30px;
+        padding-bottom: 20px;
+    }
+    .product-Head-div{
+        margin-bottom: 8px;
+    }
+}
+@media(max-width: 375px){
+    .home-margin{
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-top: 30px;
+        padding-bottom: 20px;
+    }
+}
+@media(max-width: 350px){
+    .home-margin{
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 30px;
+        padding-bottom: 20px;
+    }
+}
+@media(max-width: 340px){
+    .home-margin{
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-top: 30px;
+        padding-bottom: 20px;
+    }
+}
+@media(max-width: 330px){
+    .home-margin{
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 30px;
+        padding-bottom: 20px;
+    }
+}
+@media(max-width: 325px){
+    .home-margin{
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-top: 30px;
+        padding-bottom: 20px;
+    }
+}

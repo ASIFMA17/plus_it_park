@@ -1,0 +1,80 @@
+.dashHome-margin {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.card-dashHome {
+    display: flex;
+    justify-content: center;
+}
+
+.card-bg {
+    background: #EFEBE9;
+    /* border: solid 1px #3E2723; */
+}
+
+.cardImg-div {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.img-dashHome {
+    width: 200px;
+    height: 200px;
+}
+
+.cardBtn-dashHome {
+    display: flex;
+    justify-content: center;
+}
+
+.Button-dashHome {
+    font-size: 13px;
+    font-weight: 600;
+    color: #fff;
+    background: #3E2723;
+    text-decoration: none;
+    padding: 4px 15px;
+    border-radius: 8px;
+}
+
+.cardTow-dashHome {
+    margin-bottom: 20px;
+}
+
+.cardfive-dashHome {
+    margin-bottom: 20px;
+}
+
+.cardfour-dashHome {
+    margin-bottom: 20px;
+}
+
+@media (min-width:768px) {
+    .cardTow-dashHome {
+        margin-bottom: 30px;
+    }
+
+    .Button-dashHome {
+        font-size: 14px;
+    }
+
+    .cardfive-dashHome {
+        margin-bottom: 0px;
+    }
+}
+
+@media (min-width:992px) {
+
+    /* .cardTow-dashHome{
+        margin-bottom: 0px;
+    }  */
+    .Button-dashHome {
+        font-size: 14px;
+    }
+
+    .cardfour-dashHome {
+        margin-bottom: 0px;
+    }
+}
